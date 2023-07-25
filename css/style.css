@@ -544,6 +544,11 @@ video {
   margin-bottom: 3.2rem;
 }
 
+.my-\[1\.2rem\] {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
 .mb-\[1\.2rem\] {
   margin-bottom: 1.2rem;
 }
@@ -560,8 +565,40 @@ video {
   margin-top: 2.4rem;
 }
 
+.mt-\[6\.2rem\] {
+  margin-top: 6.2rem;
+}
+
 .mt-\[8\.6rem\] {
   margin-top: 8.6rem;
+}
+
+.mt-\[4\.8rem\] {
+  margin-top: 4.8rem;
+}
+
+.mb-\[8\.6rem\] {
+  margin-bottom: 8.6rem;
+}
+
+.mt-\[6\.4rem\] {
+  margin-top: 6.4rem;
+}
+
+.mb-\[8\.4rem\] {
+  margin-bottom: 8.4rem;
+}
+
+.mb-\[3\.2rem\] {
+  margin-bottom: 3.2rem;
+}
+
+.mb-\[4\.8rem\] {
+  margin-bottom: 4.8rem;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -576,12 +613,40 @@ video {
   width: 100rem;
 }
 
+.w-\[505\] {
+  width: 505;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[5\%\] {
+  width: 5%;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -590,6 +655,14 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-items-center {
@@ -604,8 +677,45 @@ video {
   gap: 3.2rem;
 }
 
+.gap-\[6\.4rem\] {
+  gap: 6.4rem;
+}
+
 .gap-\[7\.4rem\] {
   gap: 7.4rem;
+}
+
+.gap-\[2\.4rem\] {
+  gap: 2.4rem;
+}
+
+.gap-\[2\.4remrem\] {
+  gap: 2.4remrem;
+}
+
+.gap-\[0\.8rem\] {
+  gap: 0.8rem;
+}
+
+.gap-\[4\.8rem\] {
+  gap: 4.8rem;
+}
+
+.gap-\[4\.4rem\] {
+  gap: 4.4rem;
+}
+
+.gap-x-\[2\.4rem\] {
+  -moz-column-gap: 2.4rem;
+       column-gap: 2.4rem;
+}
+
+.gap-y-\[1\.2rem\] {
+  row-gap: 1.2rem;
+}
+
+.gap-y-\[0\.8rem\] {
+  row-gap: 0.8rem;
 }
 
 .rounded-full {
@@ -622,6 +732,16 @@ video {
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
 }
 
+.bg-zinc-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(161 161 170 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+}
+
 .px-\[2\.4rem\] {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
@@ -630,6 +750,21 @@ video {
 .py-\[1\.2rem\] {
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
+}
+
+.py-\[8\.6rem\] {
+  padding-top: 8.6rem;
+  padding-bottom: 8.6rem;
+}
+
+.py-\[0\.8rem\] {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.py-\[1\.6rem\] {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
 }
 
 .text-left {
@@ -652,6 +787,14 @@ video {
   font-size: 3rem;
 }
 
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
 .font-\[600\] {
   font-weight: 600;
 }
@@ -671,8 +814,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.hover\:text-strongCyan:hover {
+  --tw-text-opacity: 1;
+  color: hsl(171 66% 44% / var(--tw-text-opacity));
 }
 
 .hover\:opacity-80:hover {
